@@ -1,0 +1,294 @@
+*{
+-webkit-box-sizing:border-box ; 
+-o-box-sizing: border-box ; 
+-moz-box-sizing: border-box ; 
+box-sizing: border-box ; 
+}
+
+body{
+margin: 0 ; 
+padding: 0 ; 
+font-family: 'Dosis', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+}
+.home{
+margin-top: 50px ;
+font-size: 15px ;
+font-weight: bold ;
+}
+.home a{
+text-decoration: none ; 
+color: #ea625c ; 
+}
+
+.header .info {
+margin-top: 50px ;
+
+}
+
+/*Start chef Section */
+
+.main{
+    
+margin-bottom: 50px ;
+
+}
+
+.main .chef{
+
+border-radius: 10px ;
+border: 2px solid #ccc;
+margin-bottom: 50px ;
+padding: 40px ;
+height: 500px ;
+text-align: center ;
+transition: all .5s ease-in-out ;
+
+}
+.main .chef .image{   
+    position: relative ;
+    height: 300px;
+    width: 209px;
+    margin: 0 auto ;  
+
+}
+.main .chef .lay{
+padding-top: 10px ;
+width: 100% ; 
+height: 50px ;
+border-radius: 7px 7px 0 0 ;
+background-color: #ea625c ; 
+z-index: 99 ; 
+position: absolute  ; 
+bottom: 5px ; 
+}
+.chef:hover{
+box-shadow: 3px 3px  7px 7px #eee ;
+border: 2px solid #ea625c ; 
+cursor: pointer ;
+transform: translateY(-10px) ;
+
+}
+.main .chef .lay:after{
+content: '';
+    height: 9px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-image: url(../images/divider/divider-3.png);
+    bottom: 0;
+}
+.main .chef  .info h4{
+margin-bottom: 15px ;
+font-weight: 600 ;
+color: #ea625c ;  
+}
+.main .chef  .info ul{
+
+list-style-type: none ;
+width: 300px ;
+height: 100px ;
+height: 50px ;
+margin: 0 auto ;
+overflow: hidden ;
+
+}
+.main .chef  .info ul li{
+float: left ;
+margin-right: 5px  ;
+border: 1px solid #d0cdca ;
+height: 30px ;
+width: 30px ;
+padding: 5px ;
+border-radius: 50% ;
+transition: all 1s ease-in-out ; 
+
+}
+.main .chef  .info ul li:hover{
+background-color: #ea625c  ; 
+color: #fff ;
+cursor: pointer ;
+
+}
+
+/*End of chef section */
+/*Start Services*/
+.services{
+background-image: url(../images/chefs/chefgroup.jpg) ; 
+height: 500px ;
+min-height: 500px ;
+max-height: 500px ;
+background-size: cover ;
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../images/chefs/chefgroup.jpg) ; 
+background-attachment: fixed ; 
+margin-bottom: 100px ;
+background-repeat: no-repeat ;
+overflow:  hidden ; 
+
+}
+.services .about{
+float: right ; 
+height: 400px ;
+width: 400px ; 
+background-color: rgba(0,0,0,0.8) ; 
+margin-top: 40px  ;
+padding: 10px ;
+}
+.services .about h1{
+text-align: center ;
+color:#ea625c ; 
+margin-top: 40px  ;
+padding: 10px ;
+}
+.services .about p{
+color: #fff ;
+line-height: 35px ;
+}
+/*End Of the Services Section */
+
+
+
+
+/*Start Garcon Carusal */
+.carousel-control.right ,.carousel-control.left{
+background: none ;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev ,.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+display: none ;
+
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+height: 288px ; 
+width: 250px ;
+
+}
+.carousel-caption P{
+color: #ea625c ;
+font-size: 20px ;
+margin-bottom: 40px ;
+text-align: center ;
+text-shadow:none ;  
+
+}
+.carousel-indicators li{
+border-color: #ea625c ;
+}
+
+.carousel-indicators .active{
+background-color:#ea625c ; 
+border-color: #ea625c ;
+
+}
+
+/*Style Of Footer*/
+.footer {
+margin-top: 70px ;
+background-color: #282624  ; 
+position: relative ;
+}
+.footer:before{
+    content: "";
+    background-image: url(../images/divider/fdivider.png);
+    background-color: #282624;
+    height: 9px ;
+    width: 100% ;
+    position: absolute
+}
+
+/*Start me Section */
+
+.me{
+overflow: hidden ;
+}
+.me h1{
+color: aliceblue ;
+font-size: 15px ;
+font-weight: bold ; 
+float: left ;
+}
+.me h1 span{
+color:  #E23C2A ;
+}
+.me ul{
+list-style-type: none ;
+margin: 0 ; 
+padding: 0 ; 
+}
+.me ul li{
+color: #fff ;
+background-color: #E23C2A ; 
+margin-left: 10px ;
+height: 30px ;
+text-align: center ;
+padding-top: 5px ;
+border-radius: 50% ;
+width: 30px ;
+display: inline-block ;
+float: right ;
+margin-top: 15px ;
+}
+
+
+
+
+.garcon .header h1{
+font-family: 'Pacifico', cursive;
+color: #ea625c ; 
+font-size: 25px ;
+margin-bottom: 40px ;
+}
+.garcon .header p{
+font-weight: bold ;
+margin-bottom: 60px ;
+}
+.garcon .header h2{
+font-size:25px ;
+margin-bottom: 40px ;
+font-weight: 400 ;
+}
+.garcon .header h2:after{
+content: "" ; 
+width: 274px ;
+height: 50px ; 
+background-image: url(../images/Rdevidor.png); 
+background-repeat: no-repeat ; 
+display: block ;
+
+}
+
+.header .info {
+margin-top: 50px ;
+
+}
+
+.header .info h1{
+
+font-family: 'Pacifico', cursive;
+color: #ea625c ; 
+font-size: 30px ;
+margin-bottom: 40px ;
+}
+.header .info h2{
+font-size:20px ;
+margin-bottom: 40px ;
+font-weight: 400 ;
+font-weight: bold ;
+
+}
+.header .info h2:after{
+content: "" ; 
+width: 274px ;
+height: 50px ; 
+background-image: url(../images/Rdevidor.png); 
+background-repeat: no-repeat ; 
+background-position: center ;
+display: block ;
+margin: 0 auto ;
+
+
+}
+.header .info p{
+font-size: 16px ;
+color: rgba(0,0,0,0.41) ;
+margin-bottom: 70px ;
+}

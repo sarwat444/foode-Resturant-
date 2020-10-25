@@ -1,0 +1,335 @@
+*{
+-webkit-box-sizing:border-box ; 
+-o-box-sizing: border-box ; 
+-moz-box-sizing: border-box ; 
+box-sizing: border-box ; 
+
+}
+
+body{
+margin: 0 ; 
+padding: 0 ; 
+font-family: 'Dosis', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+background-color:  rgba(253, 233, 233, 0.27); 
+}
+.home{
+margin-top: 50px ;
+font-size: 15px ;
+font-weight: bold ;
+
+}
+.home a{
+text-decoration: none ; 
+color: #ea625c ; 
+}
+
+.header .info {
+margin-top: 50px ;
+
+}
+
+.header .info h1{
+
+font-family: 'Pacifico', cursive;
+color: #ea625c ; 
+font-size: 25px ;
+margin-bottom: 40px ;
+}
+.header .info h2{
+font-size:20px ;
+margin-bottom: 40px ;
+font-weight: 400 ;
+font-weight: bold ;
+}
+.header .info h2:after{
+content: "" ; 
+width: 274px ;
+height: 50px ; 
+background-image: url(../images/Rdevidor.png); 
+background-repeat: no-repeat ; 
+background-position: center ;
+display: block ;
+margin: 0 auto ;
+
+
+}
+.header .info p{
+font-size: 16px ;
+color: rgba(0,0,0,0.41) ;
+}
+/*Start the MAIN Section*/
+.image{
+width: 300px ;
+height: 233px ;
+position: relative ;
+margin: 0 auto ;
+}
+.image img {
+width: 100% ;
+height: 100% ; 
+position: absolute ; 
+bottom: -71px  ;
+left: 0 ; 
+right: 0 ;
+z-index: 1 ;
+}
+
+/*start menue*/
+.main{
+width: 800px;
+margin:auto ;
+border:1px solid #ccc ; 
+position: relative ;
+box-shadow: 4px 4px 5px 4px #eee ;
+background-color: #fff ;
+}
+.menue{
+position: relative ;
+}
+ .menue .palte1 {
+position: absolute ; 
+left:-200px  ; 
+z-index: 0 ; 
+top: 500px ;
+
+}
+.menue .palte1 img{
+height: 400px ;
+width: 400px ;
+transform: rotate(90deg) ;
+
+
+}
+
+
+.main .nav {
+width: 100% ;
+height: 70px ; 
+margin: 0 auto ;
+
+
+overflow: hidden ;
+}
+.main .nav ul{
+list-style-type: none ; 
+margin:  0 auto ;
+}
+.main .nav ul li{
+margin-top: 30px ;
+float: left ;
+display: inline-block ; 
+margin-right: 10px ;
+
+
+}
+
+
+
+
+.main .left{
+    background-image: url(../images/divider/pattern8.png) ;
+     background-color:#b00000;
+    position: absolute;
+    left: -15px;
+    width: 30px;
+    height: 50px;
+   
+    border-radius: 0 23px 23px 0;
+    text-align: center ;
+    padding-top: 10px ;
+}
+.main .left:after{
+    content: " ";
+    height: 15px;
+    width: 15px;
+    display: block ;
+    background-color: #b00000;
+    position: absolute;
+      bottom: -13px;
+    left: 0px;
+    border-radius: 0px 0px 0px 42px;
+    background-image: url(../images/divider/pattern8.png) ;
+
+
+}
+.main .left:before{
+    background-image: url(../images/divider/pattern8.png) ;
+    content: " ";
+    height: 15px;
+    width: 15px;
+   top: -13px ;
+    background-color:#b00000;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    border-radius: 42px 0px 0px 0px;
+}
+.main .right{  
+    
+background-image: url(../images/divider/pattern8.png) ;
+position: absolute ; 
+right: -16px  ; 
+width: 30px ;
+height: 50px ; 
+background-color: #b00000 ;
+border-radius: 50% ;
+border-radius: 23px 0 0 23px;
+text-align: center ;
+padding-top: 10px ;
+    
+}
+.main .right:before{
+    background-image: url(../images/divider/pattern8.png) ;
+    content: " ";
+    height: 15px;
+    width: 15px;
+   top: -13px ;
+    background-color:#b00000;
+    position: absolute;
+    bottom: -14px;
+    left: 15px;
+    border-radius: 0 42px 0px 0px;
+}
+.main .right:after{
+    content: " ";
+    height: 15px;
+    width: 15px;
+    display: block ;
+    background-color: #b00000;
+    position: absolute;
+    bottom: -13px;
+    left: 15px;
+    border-radius: 0px 0 42px 0;
+    background-image: url(../images/divider/pattern8.png) ;
+
+
+    
+}
+.main .menue1 ,.main .menue2 , .main .menue3{
+margin-top: 50px ;
+margin-bottom: 50px ;
+}
+.main .menue1 h1 ,.main .menue2 h1 ,.main .menue3 h1{
+color: #ea625c ; 
+font-size: 30px ;
+text-align: center ;
+font-weight: bold ;
+
+}
+.main .menue1 h1:after ,
+.main .menue2 h1:after  ,
+.main .menue3 h1:after {
+content: "" ; 
+width: 274px ;
+height: 50px ; 
+background-image: url(../images/Rdevidor.png); 
+background-repeat: no-repeat ; 
+background-position: center ;
+display: block ;
+margin: 0 auto ;
+
+
+}
+
+.main .menue1 .model,.main .menue2 .model , .main .menue3 .model{
+margin-left: 15px ;
+overflow: hidden ;
+margin-bottom: 10px ;
+margin-top: 50px ;
+
+
+}
+.main .menue1 .model img ,.main .menue2 .model img ,.main .menue3 .model img{
+width: 90px ;
+height: 90px ;
+float: left ;
+margin-left: 15px ;
+
+}
+.main .menue1 .model p , 
+.main .menue2 .model p ,
+.main .menue3 .model p{
+font-weight: bold ;
+line-height: 30px ;
+text-align: center ;
+}
+
+.main .menue1 .model p span ,
+.main .menue2 .model p span, 
+.main .menue3 .model p span{
+color: #b00000 ;
+font-weight: bold ;
+}
+
+
+.main .menue1:after ,
+.main .menue2:after{
+content:"" ; 
+background-image: url(../images/divider/divider-1.png)  ;
+display: block ; 
+width: 100% ; 
+height: 10px ;
+
+}
+.main .icecream{
+height: 500px ;
+width: 300px ;
+position: absolute ; 
+left: -380px ; 
+top: 150px ;
+
+}
+.main .icecream img{
+height: 500px ;
+width: 300px ;
+
+}
+
+/*Style Of Footer*/
+.footer {
+margin-top: 70px ;
+background-color: #282624  ; 
+position: relative ;
+}
+.footer:before{
+    content: "";
+    background-image: url(../images/divider/fdivider.png);
+    background-color: #282624;
+    height: 9px ;
+    width: 100% ;
+    position: absolute
+}
+
+/*Start me Section */
+
+.me{
+overflow: hidden ;
+}
+.me h1{
+color: aliceblue ;
+font-size: 15px ;
+font-weight: bold ; 
+float: left ;
+}
+.me h1 span{
+color:  #E23C2A ;
+}
+.me ul{
+list-style-type: none ;
+margin: 0 ; 
+padding: 0 ; 
+}
+.me ul li{
+color: #fff ;
+background-color: #E23C2A ; 
+margin-left: 10px ;
+height: 30px ;
+text-align: center ;
+padding-top: 5px ;
+border-radius: 50% ;
+width: 30px ;
+display: inline-block ;
+float: right ;
+margin-top: 15px ;
+}

@@ -1,0 +1,275 @@
+*{
+-webkit-box-sizing:border-box ; 
+-moz-box-sizing :border-box ; 
+box-sizing: border-box ;  
+}
+body{
+padding: 0 ; 
+margin: 0 ; 
+font-family: 'Dosis', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+background-color:  rgba(253, 233, 233, 0.27); ;
+}
+.home{
+margin-top: 50px ;
+font-size: 15px ;
+font-weight: bold ;
+
+}
+.home a{
+text-decoration: none ; 
+color: #ea625c ; 
+}
+
+/*start resume session*/
+.header{
+margin-bottom: 100px ;
+}
+.header .info h1{
+
+font-family: 'Pacifico', cursive;
+color: #ea625c ; 
+font-size: 25px ;
+margin-bottom: 40px ;
+}
+.header .info h2{
+font-size:20px ;
+margin-bottom: 40px ;
+font-weight: 400 ;
+font-weight: bold ;
+}
+.header .info h2:after{
+content: "" ; 
+width: 274px ;
+height: 50px ; 
+background-image: url(../images/Rdevidor.png); 
+background-repeat: no-repeat ; 
+background-position: center ;
+display: block ;
+margin: 0 auto ;
+
+
+}
+.header .info p{
+font-size: 16px ;
+color: rgba(0,0,0,0.41) ;
+}
+.resume{
+margin-bottom: 50px ; 
+
+
+}
+
+
+.information {
+
+padding-left: 50px ;
+border-left: 3px solid  #ea625c;
+
+}
+.resume .information .info1,
+.resume .information .info2,
+.resume .information .info3,
+.resume .information .info4,
+.resume .information .info5,
+.resume .information .info6,
+.resume .information .info7
+{
+background-color: #eee ; 
+padding: 10px ;
+font-size: 16px ;
+margin-bottom: 70px ;
+border-radius: 5px 0 0 5px ;
+position: relative ;
+border-right: 3px solid #ea625c;
+
+}
+.resume .information .info1:before{
+content: "";
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/persons/user.png);
+    position: absolute;
+    left: -86px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ea625c;
+    top: -8px;
+
+}
+.resume .information .info2:before{
+content: "";
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/persons/man.png);
+    position: absolute;
+    left: -86px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ea625c;
+    top: -8px;
+
+}
+.resume .information .info3:before{
+content: "";
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/persons/man-1.png);
+    position: absolute;
+    left: -86px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ea625c;
+    top: -8px;
+
+
+}
+.resume .information .info4:before{
+content: "";
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/persons/businessman.png);
+    position: absolute;
+    left: -86px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ea625c;
+    top: -8px;
+}
+
+
+.resume .information .info5:before
+{
+   content: "";
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/persons/boss.png);
+    position: absolute;
+    left: -86px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ea625c;
+    top: -8px;
+
+}
+.resume .information .info6:before
+{
+   content: "";
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/persons/man.png);
+    position: absolute;
+    left: -86px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ea625c;
+    top: -8px;
+
+}
+.resume .information .info7:before
+{
+   content: "";
+    height: 64px;
+    width: 64px;
+    background-image: url(../images/persons/businessman.png);
+    position: absolute;
+    left: -86px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ea625c;
+    top: -8px;
+
+}
+.resume .information .info1:after,
+.resume .information .info2:after,
+.resume .information .info3:after,
+.resume .information .info4:after,
+.resume .information .info5:after,
+.resume .information .info6:after,
+.resume .information .info7:after
+{
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: transparent #eee transparent transparent ;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 15px;
+    left: -19px;
+
+
+}
+.resume .information .info1 h4,
+.resume .information .info2 h4,
+.resume .information .info3 h4,
+.resume .information .info4 h4,
+.resume .information .info5 h4,
+.resume .information .info6 h4,
+.resume .information .info7 h4{
+font-weight: bold ;
+color: #ea625c ; 
+font-size: 20px ;
+}
+.resume .information .info1 p,
+.resume .information .info2 p,
+.resume .information .info3 p,
+.resume .information .info4 p,
+.resume .information .info5 p,
+.resume .information .info6 p,
+.resume .information .info7 p{
+font-weight: bold ;
+
+}
+
+
+/*Style Of Footer*/
+.footer {
+margin-top: 70px ;
+background-color: #282624  ; 
+position: relative ;
+}
+.footer:before{
+    content: "";
+    background-image: url(../images/divider/fdivider.png);
+    background-color: #282624;
+    height: 9px;
+    width: 100%;
+    position: absolute
+}
+
+
+/*Start me Section */
+.me{
+overflow: hidden ;
+}
+.me h1{
+color: aliceblue ;
+font-size: 15px ;
+font-weight: bold ; 
+float: left ;
+}
+.me h1 span{
+color:  #E23C2A ;
+}
+.me ul{
+list-style-type: none ;
+margin: 0 ; 
+padding: 0 ; 
+}
+.me ul li{
+color: #fff ;
+background-color: #E23C2A ; 
+margin-left: 10px ;
+height: 30px ;
+text-align: center ;
+padding-top: 5px ;
+border-radius: 50% ;
+width: 30px ;
+display: inline-block ;
+float: right ;
+margin-top: 15px ;
+}
+
+
